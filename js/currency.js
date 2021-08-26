@@ -29,7 +29,7 @@ const select = document.querySelectorAll('.currency');
       if (currency1 != currency2) {
         convert(currency1, currency2, value);
       } else {
-        alert("Choose Diffrent Currency");
+        alert("Choose a Different Currency");
       }
     }
 

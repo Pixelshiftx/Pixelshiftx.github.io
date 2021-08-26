@@ -46,6 +46,11 @@ button{
   padding: 0 20px;
   cursor: pointer;
   border-radius: 3px;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 p{
   background-color: #ffffff;
