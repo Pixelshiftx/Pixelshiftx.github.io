@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@keyframes showTopText {
+  0% { transform: translate3d(0, 100%, 0); }
+  40%, 60% { transform: translate3d(0, 50%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+@keyframes showBottomText {
+  0% { transform: translate3d(0, -100%, 0); }
+  100% { transform: translate3d(0, 0, 0); }
+}
+.animated-title {
+  color: #222;
+  font-family: Roboto, Arial, sans-serif;
+  height: 90vmin;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vmin;
+  
+  
+}
+.animated-title > div {
+  height: 50%;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+}
+.animated-title > div div {
+  font-size: 12vmin;
+  padding: 2vmin 0;
+  position: absolute;
+}
+.animated-title > div div span {
+  display: block;
+}
+.animated-title > div.text-top {
+  border-bottom: 1vmin solid white;
+  top: 0;
+}
+.animated-title > div.text-top div {
+  animation: showTopText 2s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+ 
+  animation-timing-function: ease-in-out;
+  bottom: 0;
+  transform: translate(0, 100%);
+}
+.animated-title > div.text-top div span:first-child {
+  color: #767676;
+}
+.animated-title > div.text-bottom {
+  bottom: 0;
+  
+}
+.animated-title > div.text-bottom div {
+  animation: showBottomText 1s;
+  animation-delay: 3.5s;
+  animation-fill-mode: forwards;
+
+  animation-timing-function: ease-in-out;
+  top: 0;
+  transform: translate(0, -100%);
+  font-size: 7vmin;
+}
+
+.whee{
+    animation:colorchange 20s infinite alternate;
+}
+
+@keyframes colorchange {
+    0% {
+      
+      color: blue;
+    }
+    
+    10% {
+      
+      color: #8e44ad;
+    }
+    
+    20% {
+      
+      color: #1abc9c;
+    }
+    
+    30% {
+      
+      color: #d35400;
+    }
+    
+    40% {
+      
+      color: blue;
+    }
+    
+    50% {
+      
+      color: #34495e;
+    }
+    
+    60% {
+      
+      color: blue;
+    }
+    
+    70% {
+      
+      color: #2980b9;
+    }
+    80% {
+   
+      color: #f1c40f;
+    }
+    
+    90% {
+   
+      color: #2980b9;
+    }
+    
+    100% {
+      
+      color: pink;
+    }
+  }
+
+  .title{
+    background: linear-gradient(
+        to right, 
+        hsla(54, 100%, 50%, 1), 
+        hsla(314, 100%, 50%, 1)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
+  progress {
+    background: rgba(255,255,255,0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 500px;
+    padding-bottom: 12px;
+  }
+  svg{font-weight:bold;max-width:600px;height:100%;}
