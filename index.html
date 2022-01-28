@@ -1,274 +1,320 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Degeneracy</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-        <!-- Simple line icons-->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link rel="stylesheet" type="text/css" href="css/styles.css" />
-        <link rel="stylesheet" type="text/css" href="css/fancytitle.css" />
-        <!--jQuery-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
-        <nav id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-nav-item"><a href="index.html">Main</a></li>
-                <li class="sidebar-nav-item"><a href="cointoss.html">Coin Toss</a></li>
-                <li class="sidebar-nav-item"><a href="converter.html">Case Converter</a></li>
-                <li class="sidebar-nav-item"><a href="date.html">Date Calculation</a></li>
-                <li class="sidebar-nav-item"><a href="currency.html">Money Converter</a></li>
-                <li class="sidebar-nav-item"><a href="rng.html">RNG Generator</a></li>
-            </ul>
-        </nav>
-        <!-- Header-->
-        <header class="masthead d-flex align-items-center">
-            
-                <div class="animated-title">
-                    <div class="text-top">
-                      <div>
-                        <span class="whee" style="color: white; font-family: 'Bebas Neue', cursive;">Welcome to</span>
-                        <span class="whee" style="color: white; font-family: 'Bebas Neue', cursive;">My Website!</span>
-                      </div>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Pixelshift</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/fancytitle.css" />
+    <!--jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body id="page-top">
+    <!-- Navigation-->
+    <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-nav-item"><a href="#about">About Me</a></li>
+            <li class="sidebar-nav-item"><a href="#skills">My Skills</a></li>
+            <li class="sidebar-nav-item"><a href="#portfolio">Past Projects</a></li>
+            <li class="sidebar-nav-item"><a href="#experiences">Experiences</a></li>
+            <li class="sidebar-nav-item"><a href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
+    <nav id="mainNav" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark gone">
+        <div class="container-fluid">
+            <div class="navbar-nav">
+                <a href="#about" class="nav-item nav-link" id="nav1">About Me</a>
+                <a href="#skills" class="nav-item nav-link" id="nav2">My Skills</a>
+                <a href="#portfolio" class="nav-item nav-link" id="nav3">Past Projects</a>
+                <a href="#experiences" class="nav-item nav-link" id="nav4">Experiences</a>
+                <a href="#contacts" class="nav-item nav-link" id="nav5">Contacts</a>
+            </div>
+        </div>
+    </nav>
+    <header class="masthead d-flex align-items-center">
+        <div class=" animated-title">
+            <div class="text-top">
+                <div style="text-align: center;">
+                    <span class="whee masthead-subheading" style="color: white; font-family: 'Bebas Neue', cursive;">Welcome to</span>
+                    <span class="whee masthead-subheading" style="color: white; font-family: 'Bebas Neue', cursive;">My Website!</span>
+                </div>
+            </div>
+            <div class="text-bottom">
+                <div style="color: white; font-family: 'Titillium Web', sans-serif; ">It is currently <span style="color:#1D809F ;" id="currDate"></span><span id="spanClock"></span></div>
+            </div>
+        </div>
+    </header>
+    <section class="callout bg-dark" id="about">
+        <div class="container px-4 px-lg-5">
+            <div class="row align-items-center flex-row-reverse">
+                <div class="col-lg-6 ">
+                    <div class="about-text js-scroll slide-left">
+                        <img class="img-fluid" src="assets/img/DSCF8748.jpg" title="" alt="my face">
                     </div>
-                    <div class="text-bottom">
-                        
-                      <div style="color: white; font-family: 'Titillium Web', sans-serif; ">It is currently <span id="currDate"></span><span id="spanClock"></span></div>
-                    </div>
-                  </div>
-            
-        </header>
-        
-        
-        <section class="callout">
-            <div class="container px-4 px-lg-5">
-                <div class="row align-items-center flex-row-reverse">
-                    <div class="col-lg-6">
-                        <div class="about-text go-to">
-                            <div class="title">
-                                <h2 style="font-family: 'Bebas Neue', cursive;"class="mb-5">&mdash; About Me &mdash;</h2>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-text go-to js-scroll slide-right">
+                        <div class="title">
+                            <h2 style="font-family: 'Bebas Neue', cursive; text-align: left;" class="mb-5">&mdash; About Me &mdash;</h2>
+                        </div>
+
+                        <h6 class="lead">Hi! My name is <strong>Ariel Vito Suyata Ong.</strong> I am a college student at Bina Nusantara University, studying Computer Science. I am now currently pursuing Web Development as my main career. </h6>
+
+                        <div class="row about-list">
+                            <div class="col-md-6">
+                                <div class="media text-faded mb-0">
+                                    <label style="font-size: large;" class="text-secondary "><i class="fas fa-caret-right"></i></i><strong> Name</strong> </label>
+                                    <p><strong>Pixelshift</strong></p>
+                                </div>
+                                <div class="media text-faded mb-0">
+                                    <label style="font-size: large;" class="text-secondary "><i class="fas fa-caret-right"></i><strong> Birthday</strong></label>
+                                    <p><strong>11 May 2002</strong> </p>
+                                </div>
+                                <div class="media text-faded mb-0">
+                                    <label style="font-size: large;" class="text-secondary "><i class="fas fa-caret-right"></i><strong> Age</strong></label>
+                                    <p><strong>19</strong></p>
+                                </div>
                             </div>
-                            
-                            <h6 class="theme-color lead">Hi! I am your<strong> average, mediocre and unmotivated college student</strong> with no achievement to speak of. Likes to play games. Maybe a lil'bit too much. Plays bass guitar. Acrophobic. Likes photography. Loves to collect IEMs and headphones in general. Hates weebs.</h6>
-                            
-                            <div class="row about-list">
-                                <div class="col-md-6">
-                                    <div class="media text-faded mb-0">
-                                        <label class="text-secondary ">Name</label>
-                                        <p><strong>Pixelshift</strong></p>
-                                    </div> 
-                                    <div class="media text-faded mb-0">
-                                        <label class="text-secondary ">Birthday</label>
-                                        <p><strong>11 May 2002</strong> </p>
-                                    </div>
-                                    <div class="media text-faded mb-0">
-                                        <label class="text-secondary ">Age</label>
-                                        <p><strong>19</strong></p>
-                                    </div>
-                                    
+                            <div class="col-md-6">
+                                <div class="media text-faded mb-0">
+                                    <label style="font-size: large;" class="text-secondary "><i class="fas fa-caret-right"></i><strong> Email</strong></label>
+                                    <p><strong>vitosuyata@gmail.com</strong></p>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="media text-faded mb-0">
-                                        <label class="text-secondary ">E-mail</label>
-                                        <p><strong>nah not in the mood</strong></p>
-                                    </div>
-                                    <div class="media text-faded mb-0">
-                                        <label class="text-secondary ">Occupancy</label>
-                                        <p><strong>College Brat</strong></p>
-                                    </div>
-                                    <div class="media text-faded  mb-0">
-                                        <label class="text-secondary ">Address</label>
-                                        <p><strong>Balikpapan, Indonesia</strong></p>
-                                    </div>
-                                   
+                                <div class="media text-faded mb-0">
+                                    <label style="font-size: large;" class="text-secondary "><i class="fas fa-caret-right"></i><strong> Occupancy</strong></label>
+                                    <p><strong>College Student</strong></p>
                                 </div>
+                                <div class="media text-faded  mb-0">
+                                    <label style="font-size: large;" class="text-secondary "><i class="fas fa-caret-right"></i><strong> Address</strong></label>
+                                    <p><strong>Balikpapan, Indonesia</strong></p>
+                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="about-avatar">
-                            <img class="img-fluid"src="assets/img/saiki.png" title="" alt="">
-                        </div>
-                    </div>
                 </div>
             </div>
-        </section>
-        <!-- Services-->
-        <section class="content-section bg-primary text-white text-center" id="services">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading">
-                    
-                    <h2 class="mb-5">Random Small Programs</h2>
-                    <h6 class="text-secondary mb-6">These are some utterly useless programs that I made for fun, which the vast majority of people won't actually use. Enjoy.</h6>
-                    
-                </div>
-                <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
-                        <a href="cointoss.html">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="fas fa-coins"></i></span>
-                        </a>
-                        <a href="cointoss.html"><strong>Coin Toss</strong></a>
-                        <p class="text-faded mb-0">It..tosses a coin</p>
-                    </div>
-                    <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
-                        <a href="cointoss.html">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="fas fa-font"></i></span>
-                        </a>   
-                        <a href="converter.html"><strong>Case Converter</strong></a>
-                        <p class="text-faded mb-0">Input a sentence, and change the case</p>
-                    </div>
-                    <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
-                        <a href="cointoss.html">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="far fa-clock"></i></span>
-                        </a>
-                        <a href="date.html"><strong>Calculate Date</strong></a>
-                        <p class="text-faded mb-0">Input two dates, and then it will calculate the day difference</p>
-                    </div>
-                    <div class="col-lg-2 col-md-6 mb-5 mb-md-0">
-                        <a href="currency.html">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="fas fa-dollar-sign"></i></span>
-                        </a>
-                        <a href="currency.html"><strong>Money Converter</strong></a>
-                        <p class="text-faded mb-0">Converts one currency to another</p>
-                    </div>
-                    <div class="col-lg-2 col-md-6">
-                        <a href="rng.html">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="fas fa-sort-numeric-up"></i></span>
-                        </a>
-                        <a href="rng.html"><strong>RNG Generator</strong></a>
-                        <p class="text-faded mb-0">Spits out a random number</p>
-                    </div>
-                    
-                    <h6 class="text-secondary mb-6">Note that YOU can also make these at home. I'm a bad coder. 95% of this website's contents are nitpicked from the internet.</h6>
-                </div>
+        </div>
+    </section>
+    <section class="content-section bg-dark text-white" id="skills">
+        <div class="container px-4 px-lg-5 text-center js-scroll fade-in">
+            <div class="content-section-heading text-center">
+                <h2 class="mb-5 title" style="text-align: center;font-family: 'Bebas Neue', cursive;">&mdash; Skills &mdash;</h2>
             </div>
-        </section>
-        <!-- Callout-->
-        
-        <!-- Portfolio-->
-        <section style="background-color: #212529;" class="content-section" id="portfolio">
-            <div class="container px-4 px-lg-5">
-                <div class="content-section-heading text-center">
-                    
-                    <h2 class="mb-5" style="color: white;">My College Projects</h2>
-                </div>
-                <div class="row gx-0">
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="https://github.com/Pixelshiftx/HCI_FinalProject">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Anti Discrimination Website</div>
-                                    <p class="mb-0">Final Theory Project for Human and Computer Interaction, about an-anti discrimination website.</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid"  src="assets/img/Screenshot 2021-06-25 194151.png" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="https://github.com/Pixelshiftx/HCI_WebsiteDanBam">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">DanBam Website</div>
-                                    <p class="mb-0">Final Lab Project for Human and Computer Interaction.</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/dambam.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Strawberries</div>
-                                    <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio-3.jpg" alt="..." />
-                        </a>
-                    </div>
-                    <div class="col-lg-6">
-                        <a class="portfolio-item" href="#!">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <div class="h2">Workspace</div>
-                                    <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio-4.jpg" alt="..." />
-                        </a>
-                    </div>
-                    
-                </div>
+            <h4 style="text-align: left;">C</h4>
+            <div class="progress mb-4 ">
+                <div style="width: 70%; background-color: #ecb807; color:#212529;text-align: right; padding-right: 12px;" class="progress-bar progress-bar-striped progress-bar-animated"><strong>70%</strong></div>
             </div>
-        </section>
-        <!-- Call to Action-->
-        <section class="content-section bg-primary text-white">
-            <div class="container px-4 px-lg-5 text-center">
-                <div class="content-section-heading text-center">
-                    
-                    <h2 class="mb-5" style="color: white;">My Skills</h2>
-                </div>
-                
-                <h4 style="text-align: left;">C Language</h4>
-                <div class="progress mb-4 ">
-                    <div style="width: 55%; background-color: #ecb807; color:#212529;text-align: right; padding-right: 12px;" class="progress-bar progress-bar-striped progress-bar-animated"><strong>55%</strong></div>
-                  </div>
-                  <h4 style="text-align: left;">Front-End Programming</h4>
-                  <div class="progress mb-4">
-                    <div style="width: 70%;background-color: #ecb807; color:#212529;text-align: right; padding-right: 12px;" class="progress-bar progress-bar-striped progress-bar-animated"><strong>70%</strong></div>
-                  </div>
-                  <h4 style="text-align: left;">English Language</h4>
-                  <div class="progress mb-4">
-                    <div style="width: 90%;background-color: #ecb807; color:#212529;text-align: right; padding-right: 12px;" class="progress-bar progress-bar-striped progress-bar-animated"><strong>90%</strong></div>
-                  </div>
-                <h2 class="mb-4">Some time and life-wasting measurements right here.</h2>
+            <h4 style="text-align: left;">HTML</h4>
+            <div class="progress mb-4">
+                <div style="width: 85%;background-color: #ecb807; color:#212529;text-align: right; padding-right: 12px;" class="progress-bar progress-bar-striped progress-bar-animated"><strong>85%</strong></div>
+            </div>
+            <h4 style="text-align: left;">CSS</h4>
+            <div class="progress mb-4">
+                <div style="width: 70%;background-color: #ecb807; color:#212529;text-align: right; padding-right: 12px;" class="progress-bar progress-bar-striped progress-bar-animated"><strong>70%</strong></div>
+            </div>
+            <h4 style="text-align: left;">JS</h4>
+            <div class="progress mb-4">
+                <div style="width: 70%;background-color: #ecb807; color:#212529;text-align: right; padding-right: 12px;" class="progress-bar progress-bar-striped progress-bar-animated"><strong>70%</strong></div>
+            </div>
+            <h4 style="text-align: left;">SQL</h4>
+            <div class="progress mb-4">
+                <div style="width: 80%;background-color: #ecb807; color:#212529;text-align: right; padding-right: 12px;" class="progress-bar progress-bar-striped progress-bar-animated"><strong>80%</strong></div>
+            </div>
+            <h4 style="text-align: left;">React</h4>
+            <div class="progress mb-4">
+                <div style="width: 100%;background-color: white; color:#212529;text-align: right; padding-right: 12px;" class="progress-bar progress-bar-striped progress-bar-animated"><strong>Future Plan</strong></div>
+            </div>
+
+            <h4 style="text-align: left;">Python</h4>
+            <div class="progress mb-4">
+                <div style="width: 100%;background-color: white; color:#212529;text-align: right; padding-right: 12px;" class="progress-bar progress-bar-striped progress-bar-animated"><strong>Future Plan</strong></div>
+            </div>
+            <!-- 
+                <h2 class="mb-4" style="margin-top: 40px;">Some time and life-wasting measurements right here.</h2>
                 <a id="anilist" class="btn btn-xl btn-light me-4" href="https://anilist.co/user/pixelshift/animelist" target="_blank">Anilist</a>
                 <a id="steam" class="btn btn-xl btn-dark"  href="https://steamcommunity.com/profiles/76561198406967359/"target="_blank">Steam</a>
+                 -->
+        </div>
+    </section>
+    <!-- Portfolio-->
+    <section class="content-section bg-dark text-white" id="portfolio">
+        <div class="container px-4 px-lg-5 js-scroll fade-bottom">
+            <div class="content-section-heading text-center">
+                <h2 class="mb-5 title" style="text-align: center;font-family: 'Bebas Neue', cursive;">&mdash; Past Projects &mdash;</h2>
+            </div>
+            <div class=" mb-6" style="text-align: center">
+                <h2>These are some of my university and personal projects that I have made.</h2>
+            </div>
+            <div class="row">
+                <!-- Gallery item -->
+                <div class="col-xl-4 col-lg-4 col-md-4 mb-4">
+                    <div class="bg-white rounded shadow-sm">
+                        <a href="https://github.com/Pixelshiftx/HCI_FinalProject">
+                            <img src="assets/img/Screenshot 2021-06-25 194151.png" alt="website pic" class="staticImg img-fluid card-img-top">
+                        </a>
+                        <div class="p-4 textbox">
+                            <h5> <a href="https://github.com/Pixelshiftx/HCI_FinalProject" class="hovered ">Anti Discrimination Website Project</a></h5>
+                            <p class=" small text-muted mb-0">Final Theory Project for Human and Computer Interaction, about an-anti discrimination website.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 mb-4">
+                    <div class="bg-white rounded shadow-sm">
+                        <a href="https://github.com/Pixelshiftx/HCI_WebsiteDanBam">
+                            <img src="assets/img/dambam.jpg" alt="danbam pic" class="staticImg img-fluid card-img-top">
+                        </a>
+                        <div class="p-4 textbox">
+                            <h5> <a href="https://github.com/Pixelshiftx/HCI_WebsiteDanBam" class="hovered ">DanBam Website Project</a></h5>
+                            <p class=" small text-muted mb-0">Final Lab Project for Human and Computer Interaction.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 mb-4">
+                    <div class="bg-white rounded shadow-sm ">
+                        <a href="https://pixelshift-trivia.netlify.app/">
+                            <img src="assets/img/small.png" alt="trivia pic" class="staticImg img-fluid card-img-top ">
+                        </a>
+                        <div class="p-4 textbox">
+                            <h5> <a href="https://pixelshift-trivia.netlify.app/" class="hovered ">Pixelshift Trivia App</a></h5>
+                            <p class=" small text-muted mb-0">A personal website application that I have developed to satisfy my weird trivial problems.</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-4 mb-4">
+                    <div class="bg-white rounded shadow-sm ">
+                        <a href="#">
+                            <img src="assets/img/38175.jpg" alt="blank" class="staticImg img-fluid card-img-top ">
+                        </a>
+                        <div class="p-4 textbox">
+                            <h5> <a href="#portfolio" class="hovered ">Future Projects Coming Soon.</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <section class="content-section bg-dark text-white" id="experiences">
+        <div class="container  px-4 px-lg-5">
+            <div class="content-section-heading text-center">
+                <h2 class="mb-5 title" style="text-align: center;font-family: 'Bebas Neue', cursive;">&mdash; Experiences &mdash;</h2>
+            </div>
+            <div class=" mb-6" style="text-align: center">
+                <h2>These are my organizational experiences and other achievements. You can check more at my LinkedIn profile.</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 m-15px-tb js-scroll slide-left">
+                    <div class="resume-box">
+                        <ul>
+                            <li>
+                                <span class="time">2020-2021</span>
+                                <h5>Binus Game Development Club - BGDJam Event Committee as Documentation and Opening MC</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <span class="time">2020-2021</span>
+                                <h5>Binus Game Development Club - Community Development Activist</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <span class="time">2021-2022</span>
+                                <h5>Binus University - Freshman Partner</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--
+                <div class="col-lg-6 m-15px-tb js-scroll slide-right">
+                    <div class="resume-box">
+                        <ul>
+                            <li>
+                                <span class="time">2021-2022</span>
+                                <h5>Binus Freshman Partner</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+
+                                <span class="time">2020-2021</span>
+                                <h5>Binus Game Development Club - Community Development Activist</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            -->
+            </div>
+        </div>
+    </section>
+    <footer class="footer text-center  bg-dark text-white" id="contacts">
+        <!-- Section: Social media -->
+        <div class=" mb-6" style="text-align: center">
+            <h2>You can find me at:</h2>
+        </div>
+        <section class="refont d-flex justify-content-center justify-content-lg-between  border-bottom">
+            <!-- Left -->
+
+            <div class="container pt-4 ">
+                <section class="mb-4">
+                    <ul class="list-inline mb-5 ">
+                        <li class="list-inline-item">
+                            <a class="social-link rounded-circle text-white mr-3" href="https://www.instagram.com/pixelshiftx/"><i class="fab fa-instagram"></i></a>
+                        </li>
+
+                        <li class="list-inline-item">
+                            <a class="social-link rounded-circle text-white" href="https://github.com/Pixelshiftx"><i class="icon-social-github"></i></a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="social-link rounded-circle text-white" href="https://www.linkedin.com/in/ariel-vito-1b41a521b/"><i class="fab fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                    <div class="container text-center text-md-start mt-5 ">
+
+                        <div style="text-align: center;" class="col-md-12 col-lg-12 col-xl-3 mx-auto mb-md-0 mb-4 ">
+
+
+                            <p>
+                                <i class="fas fa-envelope me-3"></i> vitosuyata@gmail.com
+                            </p>
+                            <p><i class="fas fa-phone-square-alt me-3"></i>-</p>
+                        </div>
+                    </div>
+                </section>
             </div>
         </section>
-        
-        <!-- Footer-->
-        <footer style="background-color: #212529;" class="footer text-center">
-            <div class="container px-4 px-lg-5">
-                <ul class="list-inline mb-5">
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="https://www.instagram.com/pixelshiftx/"><i class="fab fa-instagram"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white mr-3" href="#!"><i class="icon-social-twitter"></i></a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white" href="#!"><i class="icon-social-github"></i></a>
-                    </li>
-                </ul>
-                <p style="color: #ecb807;"class="text-muted small mb-0">&copy; pixelshift, 2021</p>
-                <p style="color: #ecb807;"class="text-muted small mb-0">made with hate and despair</p>
-            </div>
-        </footer>
-        <!-- Scroll to Top Button-->
-        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
-        <!-- Bootstrap core JS-->
-        
-        <!-- Core theme JS-->
-        <script type="text/javascript" src="delighters.js"></script>
-        <script src="js/scripts.js"></script>
-    </body>
+        <div class="text-center text-muted p-3 mb-0 refont">
+            <i class="text-center text-muted p-3 mb-0">© pixelshift 2021</i>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
