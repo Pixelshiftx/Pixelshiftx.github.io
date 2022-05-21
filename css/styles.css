@@ -10660,7 +10660,7 @@ fieldset:disabled .btn {
     .d-print-inline-block {
         display: inline-block !important;
     }
-    .d-print-block {
+    n .d-print-block {
         display: block !important;
     }
     .d-print-grid {
@@ -10899,7 +10899,21 @@ footer .social-link:hover {
     height: auto;
     padding-top: 8rem;
     padding-bottom: 8rem;
-    background: url("../assets/img/bg.JPG");
+    background: url("../assets/img/DSCF0976.JPG");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.back1 {
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    height: auto;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background: url("../assets/img/DSCF0976.JPG");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11021,4 +11035,19 @@ footer .social-link:hover {
     left: 50%;
     margin-left: -3px;
     top: 0;
+}
+
+.logo-list {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.logo-list img {
+    display: inline-block;
+    /*max-width: 85%;
+    */
+    padding: 15px 0;
+    height: 150px;
+    width: 150px;
+    transition: all 0.3s ease-in-out;
 }

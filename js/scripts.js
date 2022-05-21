@@ -80,11 +80,6 @@ function fadeIn(el, display) {
 };
 
 
-
-
-
-
-
 function time() {
     var clock = document.getElementById('spanClock');
     var d = new Date();
@@ -161,41 +156,47 @@ switch (date.getMonth()) {
 }
 DateCont.textContent = day + ", " + date.getDate() + " " + month + " " + date.getFullYear();
 
-/*
-var data =
-'[ { "name": "Aragorn", "race": "Human" }, { "name": "Gimli", "race": "Dwarf" } ]'
+// var request = new XMLHttpRequest();
+// var titleInsert = "Monogatari"
+// request.open('GET', 'https://api.jikan.moe/v4/anime/1');
 
-data = JSON.parse(data);
-for (var i=0;i<data.length;i++)
-{
-  console.log('Name: '+ data[i].name + ' and Race: '+data[i].race +'.')
-}
-      
-var request = new XMLHttpRequest();
-var titleInsert =  "Monogatari"
-request.open('GET', 'https://api.jikan.moe/v3/search/anime?q='+titleInsert+'&page=1');
-      
-request.onreadystatechange = function () {
-  if (this.readyState === 4) {
-    var obj = JSON.parse(this.responseText);
-    
-    
-    for (var i=0;i<10;i++)
-    {
-     
-      console.log('Name: '+obj[i].title+' ID: '+obj[i].mal_id+'.');
-    }
-    
-  }
-  
-  for (var i = 0; i < 10; i++) {
-      var counter = obj.results[i];
-      console.log('Title :'+counter.title+' and ID: '+counter.mal_id);
-      console.log('Synopsis :'+counter.synopsis);
-    }
-};
-request.send();
-*/
+// request.onreadystatechange = function() {
+//     if (this.readyState === 4) {
+//         var obj = JSON.parse(this.responseText);
+
+
+//         for (var i = 0; i < 10; i++) {
+
+//             console.log('Name: ' + obj[i].title + ' ID: ' + obj[i].mal_id + '.');
+//         }
+
+//     }
+
+//     for (var i = 0; i < 10; i++) {
+//         var counter = obj.data[i];
+//         console.log('Title :' + counter.title + ' and ID: ' + counter.mal_id);
+//         console.log('Synopsis :' + counter.synopsis);
+//     }
+// };
+// request.send();
+
+fetch("https://api.jikan.moe/v4/top/anime")
+    .then((response) => {
+        if (response.ok) {
+            return response.json();
+        } else {
+            throw new Error("NETWORK RESPONSE ERROR");
+        }
+    })
+    .then(data => {
+        console.log(data);
+        displayAnime(data);
+
+    })
+    .catch((error) => console.error("FETCH ERROR:", error));
+
+
+
 const scrollElements = document.querySelectorAll(".js-scroll");
 
 const elementInView = (el, dividend = 1) => {
